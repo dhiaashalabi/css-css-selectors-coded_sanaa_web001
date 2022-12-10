@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  color: green;
+}
+
+p strong,
+p em {
+  color: orange;
+}
+
+.new-bullets {
+  list-style: none;
+}
+
+.new-bullets li::before {
+  content: "°";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+tbody > tr > .location {
+  color: blue;
+}
+
+tbody > tr > td:nth-child(2) {
+  color: purple;
+}
+form > label,
+fieldset > legend,
+.lable-gender {
+  color: red;
+}
+#twitter{
+    color: cyan;
+}
